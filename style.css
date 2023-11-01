@@ -9,29 +9,92 @@
 .section-title {
     text-decoration: none;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 700;
     color: #000;
 }
+
 .section-title:hover {
     color: black;
 }
- .nav-item {
-    font-size: 16px;
+
+.nav-item {
+    font-size: 18px;
     font-weight: 400;
-}
-.nav-item:hover{
-    color: #000;
-}
-.bg-img{
-   height: 100vh;
-   background-repeat: no-repeat;
-   background-attachment: scroll;
-   background-position: center center;
-   background-size: cover;
-   background:url(https://themanufacturer-cdn-1.s3.eu-west-2.amazonaws.com/wp-content/uploads/2020/01/14113254/By-adopting-Robotic-Process-Automation-RPA-manufacturers-can-reduce-human-errors-and-increase-productivity-image-courtesy-of-Atos.png);
+    padding: 2px 20px;
 }
 
-.bg-img h1{
-    color: white;
+.nav-item:hover {
+    color: #000;
+}
+
+.bg-img {
+    height: 90vh;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTID0POBjlyN2yf2sXY5rX0PyhJi_ToKHzxgw&usqp=CAU);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+.bg-img h4 {
     font-size: 30px;
+    padding-top: 220px;
+    font-family: Georgia, serif;
+    font-weight: 600;
+}
+
+.bg-img h1 {
+    font-size: 70px;
+    font-family: serif;
+    font-weight: 600;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-shadow: 5px 5px 20px black;
+}
+
+.container .button {
+    border-radius: 6px;
+    border: none;
+    width: 14%;
+    height: 20%;
+    padding: 10px 10px;
+    font-weight: 600;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.information-section h3 {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.sub-information {
+    font-weight: 800;
+    font-size: 28px;
+}
+.featured-projects{
+    background-color: grey;
+}
+.fet-h1{
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.sub-fet{
+
+    .font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-bottom: 4rem;
+}
+.fa-brands{
+    font-size: 22px;
 }
